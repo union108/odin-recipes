@@ -1,13 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
-h1 {
+
+
+body {
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;
+  }
+
+h1{
     text-align: center;
     font-size: 60px;
     font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
-img {
-    width: 600px;
-    height: 600px;
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
+    box-shadow: 0px 0px 15px 10px rgb(0, 0, 0);
+    
+}
+
 a {
     text-decoration: none;
+    font-size: 20px;
 }
+
+.item {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
