@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
@@ -8,13 +11,17 @@ body {
   }
 
 h1{
+    padding: 50px 0px;
+    /* background-color: red; */
     text-align: center;
-    font-size: 60px;
+    font-size: 120px;
     font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
 h2 {
+    /* background-color: green; */
+    padding: 50px 0px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
 
@@ -28,14 +35,59 @@ img {
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 60px;
 }
 
 .item {
+    /* background-color: hotpink; */
     display:flex;
     flex-direction: row;
     justify-content: center;
+    padding: 50px 0px;
     
+}
+
+.nav1 {
+    
+    font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+}
+
+.nav1 li {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.nav2 {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
+}
+.nav2 {
+    position: relative;
+    list-style-type: none;
+    
+    
+}
+  
+p {
+    /* background-color: indigo; */
+    font-size: 25px;
+    padding: 25px 0;
+    text-align: center;
+
+}
+
+.back {
+    padding: 50px 0px;
+    font-size: 40px;
 }
 
 
