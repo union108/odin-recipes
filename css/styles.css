@@ -89,12 +89,19 @@ a:hover {
 }
 
 ol {
-    padding-left: 40px;  
+    padding-left: 40px;
+    display: inline-block;
 }
 
 ol li {
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 30px; 
+    text-align: left;
+}
+
+.block {
+    width: 100%;
+    text-align: center;
 }
 
 .list li{ 
