@@ -12,13 +12,12 @@ body {
 
 h1{
     padding: 50px 0px;
-    /* background-color: red; */
     text-align: center;
     font-size: 120px;
     font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
 h2 {
-    /* background-color: green; */
+    
     padding: 50px 0px;
     text-align: center;
     font-size: 50px;
@@ -29,65 +28,89 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
-    box-shadow: 0px 0px 15px 10px rgb(0, 0, 0);
+    
     
 }
 
-a {
-    text-decoration: none;
-    font-size: 60px;
+.anc {
+    width: 300px;
+    height: 300px;
+    border-radius: 54% 46% 47% 53% / 24% 55% 45% 76%;
+    box-shadow: 0px 0px 15px 10px rgb(0, 0, 0);
 }
+
+.nav2 a {
+    text-decoration: none;
+    font-size: 50px;   
+}
+
 
 .item {
-    /* background-color: hotpink; */
     display:flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 50px 0px;
-    
-}
-
-.nav1 {
-    
-    font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
-    /* background-color: red; */
+    justify-content: center;  
 }
 
 .nav1 li {
+    font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
     padding: 40px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-weight: bold;
+    font-size: 40px;
+}
 
+ a {
+    text-decoration: none;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+a:hover {
+    background-position: 0 100%;
 }
 
 .nav2 {
-    
+    position: relative;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     margin-left: 50px;
     font-family: "Comforter Brush", cursive, Arial, Helvetica, sans-serif;
 }
-.nav2 {
-    position: relative;
-    list-style-type: none;
-    
-    
+
+ol {
+    padding-left: 40px;  
+}
+
+ol li {
+    padding-bottom: 20px;
+}
+
+.list li{ 
+    padding-bottom: 20px;
+    text-align: center;
 }
   
 p {
-    /* background-color: indigo; */
     font-size: 25px;
     padding: 25px 0;
     text-align: center;
-
 }
-
 .back {
-    padding: 50px 0px;
-    font-size: 40px;
+    font-size: 30px;
+    padding-top: 50px;   
 }
 
-
+blockquote {
+    padding-left: 20px;
+}
