@@ -104,8 +104,9 @@ ol li {
 }
   
 p {
+    margin-bottom: 40px;
     font-size: 30px;
-    padding: 25px 0;
+    padding: 20px 0;
     text-align: center;
 }
 .back {
